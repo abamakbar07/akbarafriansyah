@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
+body {
+  background: #ddd;
+}
+
+.hover-container {
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.hover-text {
+  font-family: "Dela Gothic One", cursive;
+  transition: transform 0.2s;
+  line-height: 100%;
+}
+
+p.hover-text {
+  margin: 0;
+}
+
+.hover-text:hover {
+  cursor: default;
+  color: #fff;
+  transform: scale(1.5) rotate(-10deg);
+  padding-right: 0.25rem;
+}
+
+.akbar {
+  font-size: 300%;
+}
+.muhamad {
+  font-size: 210%;
+}
+.afriansyah {
+  font-size: 160%;
+}

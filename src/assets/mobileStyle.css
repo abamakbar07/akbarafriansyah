@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px) {
+  nav .email {
+    display: none;
+  }
+
+  nav .content {
+    width: 100%;
+  }
+}
